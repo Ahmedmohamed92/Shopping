@@ -1,0 +1,439 @@
+body {
+    height: 4100px;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+    
+    
+}
+nav .fa-magnifying-glass {
+    color: gray;
+}
+.left input {
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.middle {
+    color: gray;
+    border: 1px solid black;
+}
+.right {
+    color: gray;
+}
+.right .fa-user:hover {
+    color: black;
+    cursor: pointer;
+}
+.right .fa-heart:hover {
+    cursor: pointer;
+    color: black;
+}
+.right .fa-cart-shopping:hover {
+    cursor: pointer;
+    color: black;
+}
+.right .fa-user {
+    margin-right: 10px;
+}
+.right .fa-heart {
+    margin-right: 10px;
+}
+.hr {
+   background-color: rgba(128, 128, 128, 0.242);
+   
+}
+.middlenav {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.text1 {
+    margin-right: 10px;
+    color: rgba(137, 43, 226, 0.408);
+}
+.text2 {
+   margin-right: 10px;
+    cursor: pointer;
+}
+.text2:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+   
+}
+.text3 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text3:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.text4 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text4:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+    
+}.text5 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text5:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.text6 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text6:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.arrow {
+    display: flex;
+    ;
+}
+.arrow .fa-angle-down
+{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.sec1 {
+    display: flex;
+    height: 500px;
+    position: relative;
+}
+.pos {
+    position: absolute;
+}
+.abso {
+    position: absolute;
+    right: 250px;
+    top: 200px;
+}
+.sec1 p {
+    position: absolute;
+    color: gray;
+    top: 250px;
+    left:884px;
+}
+.shopnow {
+    position: absolute;
+    top: 450px;
+    left: 884px;
+    background-color: rgba(137, 43, 226, 0.663);
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+.shopnow:hover {
+    background-color:blueviolet;
+    box-shadow: 0px 5px rgba(128, 128, 128, 0.403);
+    transform: translate(1px);
+
+}
+.free {
+    display: flex;
+    margin-left: 40px
+}
+.fa-truck {
+   margin-top: 20px;
+   margin-right: 20px;
+   color: blueviolet;
+   font-size: 30px;
+}
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+}
+.return {display: flex;
+}
+.fa-rotate-left {
+    margin-top: 20px;
+   margin-right: 20px;
+   color: blueviolet;
+   font-size: 30px;
+}
+.customer {
+    display: flex;
+}
+.fa-circle-question {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: blueviolet;
+    font-size: 30px;
+}
+.sec2 p {
+    color: gray;
+}
+.sec3 {display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    
+}
+.firstrel {
+    position: relative;
+}
+.women {
+    position: absolute;
+    cursor: pointer
+}
+.absolutee {
+    position: absolute;
+    top: 430px;
+    left:20px;
+    color: white;
+}
+.secrel {
+    position: relative;
+}
+.children {
+    position: absolute;
+    cursor: pointer;
+}
+.absoluteee {position: absolute;
+    color: white;
+    top: 430px;
+    left:20px;
+}
+.menrel {
+    position: relative;
+}
+.menrel img {
+    cursor: pointer;
+}
+.back {
+    background-color: rgba(250, 235, 215, 0.503);
+    height: 800px;
+}
+.back h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.purple {
+    color: blueviolet;
+    width: 40px;
+    height: 2px;
+    background-color: blueviolet;
+}
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shirt1 {
+    padding-bottom: 200px;
+    background-color: white;
+}
+.rel0 {
+    position: relative;
+    margin-left: 100px;
+}
+.cloth1 {
+    padding-bottom: 200px;
+    background-color: white;
+    position: absolute;
+    
+}
+.tanktop {
+    position: absolute;
+    top: 300px;
+    left: 140px;
+}
+.tanktop h1{
+    color: blueviolet;
+}
+
+.tanktop h2 {
+    color: blueviolet;
+}
+.tanktop h4 {
+    color: gray;
+}
+.rel1 {
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.shoe1 {
+    padding-bottom: 200px;
+    background-color: white;
+    position: absolute;
+}
+.corater {position: absolute;
+    top: 300px;
+    left: 140px;
+  
+}
+.corater h2  {color: blueviolet;}
+.corater h1  {color: blueviolet;}
+.corater h4  {color: gray;}
+.rel2 {
+    margin-right: 500px;
+    position: relative;
+}
+.clothh2 {
+    padding-bottom: 200px;
+    background-color: white;
+    position: absolute;
+}
+.polooo {
+    position: absolute;
+    top: 300px;
+    left: 140px;
+
+}
+.polooo h1 {color: blueviolet;}
+.polooo h2 {color: blueviolet;}
+.polooo h4 {color: gray;}
+.big hr {
+    color: blueviolet;
+    width: 40px;
+    height: 2px;
+    background-color: blueviolet;
+}
+.big h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.blog1 {
+    width: 750px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.sec5 {
+    display: flex;
+}
+.sep {
+    display: flex;
+  
+}
+.items h1 {
+    margin-left: 150px;
+    margin-top: 150px;
+    color: blueviolet;
+}
+.sep h5 {
+    margin-left: 150px ;
+    color: blueviolet;
+}
+.sep .sepppppp {
+    position: relative;
+    right: 80px;
+    color: gray;
+}
+.items p {
+    margin-left: 80px;
+    color: gray;
+}
+.items input {
+    margin-left: 250px;
+    background-color: rgba(137, 43, 226, 0.663);
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.items input:hover {
+    background-color:blueviolet;
+    box-shadow: 0px 5px rgba(128, 128, 128, 0.403);
+    transform: translate(1px);
+}
+.footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.foot-left {
+    margin-left: 100px;
+    
+}
+.ulflex {
+    display: flex;
+    color: gray;
+}
+.ulflex .col1 {
+    margin-right: 200px;
+}
+.ulflex .col2
+{
+    margin-right: 100px;
+}
+.promo h3 
+{
+    color: blueviolet;
+}
+.promo h4 {
+    color: gray;
+} 
+.contact {
+    margin-right:20px;
+}
+.manial {
+    display: flex;
+}
+.manial .fa-location-dot {
+    margin-top: 20px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.telephone {
+    display: flex;
+}
+.telephone .fa-phone {
+    margin-top: 21px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.emaill {
+    display: flex;
+}
+.emaill .fa-envelope {
+    margin-top: 22px;
+    margin-right: 10px;
+    color: blueviolet;
+}.sendd {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    width: 70px;
+    position: absolute;
+}
+.emaillast {
+    height: 30px;
+    width: 150px;
+    border: 1px solid rgba(128, 128, 128, 0.319);
+    position: relative;
+    outline: none;
+}
+.lastttttttt {
+    
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.lastttttttt .name {
+    color: blueviolet;
+}
+.lastttttttt .copyright {
+    color: gray;
+}
+.lastthr {
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.159);
+    border: none;
+}

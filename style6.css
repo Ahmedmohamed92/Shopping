@@ -1,0 +1,456 @@
+body {
+    height: 2400px;
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+    
+}
+nav .fa-magnifying-glass {
+    color: gray;
+}
+.left input {
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.middle {
+    color: gray;
+    border: 1px solid black;
+}
+.right {
+    color: gray;
+}
+.right .fa-user:hover {
+    color: black;
+    cursor: pointer;
+}
+.right .fa-heart:hover {
+    cursor: pointer;
+    color: black;
+}
+.right .fa-cart-shopping:hover {
+    cursor: pointer;
+    color: black;
+}
+.right .fa-user {
+    margin-right: 10px;
+}
+.right .fa-heart {
+    margin-right: 10px;
+}
+.hr {
+   background-color: rgba(128, 128, 128, 0.547);
+}
+.middlenav {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.text1 {
+    margin-right: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.text1:hover {
+    color: rgba(137, 43, 226, 0.408) ;
+}
+.text2 {
+   margin-right: 10px;
+   cursor: pointer;
+}
+.text2:hover {
+    color: rgba(137, 43, 226, 0.408);
+}
+.text3 {
+    margin-right: 30px;
+    color: gray ;
+}
+.text3:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+    cursor: pointer;
+}
+
+.text4 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text4:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.text5 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text5:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.text6 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text6:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.arrow {
+    display: flex;
+    
+}
+.arrow .fa-angle-down
+{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.midflex {
+    display: flex;
+    background-color: rgba(255, 228, 196, 0.326);
+} 
+.midflex .home {
+    color: blueviolet;
+    margin-left: 180px;
+}
+.midflex .about {
+    margin-left: 10px;
+    color: blueviolet;
+}
+.midflex .checkout {
+    margin-left: 20px;
+}
+hr {
+    height: 1px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.162);
+}
+.rett {
+    margin-left: 180px;
+    margin-top: 120px;
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    margin-right: 180px;
+}
+.rett .customer {
+    color: gray;
+    padding-left:30px ;
+}
+.rett .click {
+    color: blueviolet;
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
+.rett .login {
+    color: gray;
+    margin-left: 5px;
+}
+.secc2 {
+    display: flex;
+}
+.negma {
+    display: flex;
+}
+.negmaa {
+    color: red;
+}
+.select {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+    width: 435px;
+
+
+}
+.borderr {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    height: 1100px;
+    width: 500px;
+    margin-left: 180px;
+}
+.gowaborder {
+    margin-left: 20px;
+}
+.bill {
+    margin-left: 180px;
+}
+.firstflex {
+    display: flex;
+}
+.flexfirst {
+    display: flex;
+}
+.flexlast {
+    display: flex;
+}
+.lastname {
+    margin-left: 50px;
+}
+.lastname input {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+.firstname input {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+.addressflex {
+    display: flex;
+}
+.flexstate {
+    display: flex;
+}
+.flexxxxxx {
+    display: flex;
+}
+.postalflexx {
+    display: flex;
+}
+.sec2right {
+    margin-left: 50px;
+}
+.sec2right input {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+.sec2left input {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+.company {
+    width: 90%;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+}
+.street {
+    width: 90%;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+}
+.apart {
+    width: 90%;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+}
+.emailflexx {
+    display: flex;
+}
+.phoneflexx {
+    display: flex;
+}
+.flexxxxxxxxxxx {
+    display: flex;
+}
+.righttflexx {
+    margin-left: 50px;
+}
+.righttflexx input {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+} 
+.leftflexx input
+{
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+
+}
+.notes input {
+    border: 1px solid rgba(128, 128, 128, 0.274) ;
+    color: gray;
+    height: 200px;
+    padding-left: 20px;
+    width: 400px;
+    margin-left: 20px;
+    outline: none;
+    
+}
+.codeeee {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 5px;
+    height: 30px;
+    width:300px;
+    position: relative;
+}
+.applyyyyy {
+    background-color: blueviolet;
+    color:white ;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    width: 100px;
+    height: 32px;
+}
+.firstborderright {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    width: 600px;
+    height: 150px;
+    padding-left: 50px;
+    margin-left: 40px;
+
+}
+.secondborderright {
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    width: 600px;
+    height: 800px;
+    margin-left: 40px;
+}
+.yourorder {
+    margin-left: 40px;
+}
+.flex1 {
+    display: flex; 
+    justify-content: space-between;
+}
+.flex2 {
+    display: flex; 
+    justify-content: space-between;
+}
+.flex3 {
+    display: flex; 
+    justify-content: space-between;
+}
+.flex4 {
+    display: flex; 
+    justify-content: space-between;
+}
+.direct {
+    color: blueviolet;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.cheque {
+    color: blueviolet;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+
+
+}
+.clasify {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.paypal {
+    color: blueviolet;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.placeorder {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 500px;
+    height: 60px;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.foot-left {
+    margin-left: 100px;
+    
+}
+.ulflex {
+    display: flex;
+    color: gray;
+}
+.ulflex .col1 {
+    margin-right: 200px;
+}
+.ulflex .col2
+{
+    margin-right: 100px;
+}
+.promo h3 
+{
+    color: blueviolet;
+}
+.promo h4 {
+    color: gray;
+} 
+.contact {
+    margin-right:20px;
+}
+.manial {
+    display: flex;
+}
+.manial .fa-location-dot {
+    margin-top: 20px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.telephone {
+    display: flex;
+}
+.telephone .fa-phone {
+    margin-top: 21px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.emaill {
+    display: flex;
+}
+.emaill .fa-envelope {
+    margin-top: 22px;
+    margin-right: 10px;
+    color: blueviolet;
+}.sendd {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    width: 70px;
+    position: absolute;
+}
+.emaillast {
+    height: 30px;
+    width: 150px;
+    border: 1px solid rgba(128, 128, 128, 0.319);
+    position: relative;
+    outline: none;
+}
+.lastttttttt {
+    
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.lastttttttt .name {
+    color: blueviolet;
+}
+.lastttttttt .copyright {
+    color: gray;
+}
+
+
+
+ 
+ 

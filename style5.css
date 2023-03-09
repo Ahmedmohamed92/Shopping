@@ -1,0 +1,365 @@
+body {
+    height: 1900px;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+    
+}
+nav .fa-magnifying-glass {
+    color: gray;
+}
+.left input {
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.middle {
+    color: gray;
+    border: 1px solid black;
+}
+.right {
+    color: gray;
+}
+.right .fa-user:hover {
+    color: black;
+    cursor: pointer;
+}
+.right .fa-heart:hover {
+    cursor: pointer;
+    color: black;
+}
+.right .fa-cart-shopping:hover {
+    cursor: pointer;
+    color: black;
+}
+.right .fa-user {
+    margin-right: 10px;
+}
+.right .fa-heart {
+    margin-right: 10px;
+}
+.hr {
+   background-color: rgba(128, 128, 128, 0.547);
+}
+.middlenav {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.text1 {
+    margin-right: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.text1:hover {
+    color: rgba(137, 43, 226, 0.408) ;
+}
+.text2 {
+   margin-right: 10px;
+   cursor: pointer;
+}
+.text2:hover {
+    color: rgba(137, 43, 226, 0.408);
+}
+.text3 {
+    margin-right: 30px;
+    color: gray ;
+}
+.text3:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+    cursor: pointer;
+}
+
+.text4 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text4:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.text5 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text5:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.text6 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text6:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.arrow {
+    display: flex;
+    
+}
+.arrow .fa-angle-down
+{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.midflex {
+    display: flex;
+    background-color: rgba(255, 228, 196, 0.326);
+} 
+.midflex .home {
+    color: blueviolet;
+    margin-left: 180px;
+}
+.midflex .about {
+    margin-left: 30px;
+}
+hr {
+    height: 1px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.162);
+}
+table , td {
+    outline: 1px solid rgba(128, 128, 128, 0.159);
+}
+.cloth1 {
+    width: 200px;
+    margin-left: 20px;
+}
+.polo {
+    width: 200px;
+    margin-left: 20px;
+
+}
+.text .image {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.row1 {
+    width: 240px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+.row2 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 240px;
+}
+table {
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+.text .product {
+    padding-left : 100px;
+    width: 100px;
+}
+.topp {
+    padding-left: 70px;
+    width: 10px;
+}
+.poloo {
+    padding-left: 70px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dollar {
+    padding-left:  80px;
+    width: 100px;
+    color: gray;
+}
+.total {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.remove {
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.value {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+.quality {
+    width: 100px;
+    padding-left: 70px;
+}
+.under {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.update {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
+.continue {
+    margin-left: 20px;
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+
+}
+.rightt h1 {
+    margin-right: 50px;
+    margin-left: 150px;
+}
+.cartt {
+    width: 400px;
+}
+.subb {
+    display: flex;
+    justify-content: space-between;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+.rightt {
+    margin-right: 50px;
+}
+.proceed {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width:300px;
+    height: 50px;
+    cursor: pointer; 
+    font-size: 20px;
+}
+.leftt h1 {
+    margin-top: 50px;
+}
+.leftt h3 {
+    color: gray;
+}
+
+.leftt .coupon {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.218);
+}
+.leftt .apply {
+    margin-left: 30px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: blueviolet;
+    border: none ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.foot-left {
+    margin-left: 100px;
+    
+}
+.ulflex {
+    display: flex;
+    color: gray;
+}
+.ulflex .col1 {
+    margin-right: 200px;
+}
+.ulflex .col2
+{
+    margin-right: 100px;
+}
+.promo h3 
+{
+    color: blueviolet;
+}
+.promo h4 {
+    color: gray;
+} 
+.contact {
+    margin-right:20px;
+}
+.manial {
+    display: flex;
+}
+.manial .fa-location-dot {
+    margin-top: 20px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.telephone {
+    display: flex;
+}
+.telephone .fa-phone {
+    margin-top: 21px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.emaill {
+    display: flex;
+}
+.emaill .fa-envelope {
+    margin-top: 22px;
+    margin-right: 10px;
+    color: blueviolet;
+}.sendd {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    width: 70px;
+    position: absolute;
+}
+.emaillast {
+    height: 30px;
+    width: 150px;
+    border: 1px solid rgba(128, 128, 128, 0.319);
+    position: relative;
+    outline: none;
+}
+.lastttttttt {
+    
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.lastttttttt .name {
+    color: blueviolet;
+}
+.lastttttttt .copyright {
+    color: gray;
+}
+
+

@@ -1,0 +1,789 @@
+body {
+    height: 4100px;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+    
+}
+nav .fa-magnifying-glass {
+    color: gray;
+}
+.left input {
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.middle {
+    color: gray;
+    border: 1px solid black;
+}
+.right {
+    color: gray;
+}
+.right .fa-user:hover {
+    color: black;
+    cursor: pointer;
+}
+.right .fa-heart:hover {
+    cursor: pointer;
+    color: black;
+}
+.right .fa-cart-shopping:hover {
+    cursor: pointer;
+    color: black;
+}
+.right .fa-user {
+    margin-right: 10px;
+}
+.right .fa-heart {
+    margin-right: 10px;
+}
+.hr {
+   background-color: rgba(128, 128, 128, 0.547);
+}
+.middlenav {
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.text1 {
+    margin-right: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.text1:hover {
+    color: rgba(137, 43, 226, 0.408) ;
+}
+.text2 {
+   margin-right: 10px;
+   cursor: pointer;
+}
+.text2:hover {
+    color: rgba(137, 43, 226, 0.408);
+}
+.text3 {
+    margin-right: 30px;
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.text4 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text4:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+    
+}.text5 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text5:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.text6 {
+    margin-right: 30px;
+    cursor: pointer;
+}
+.text6:hover {
+    color:  rgba(137, 43, 226, 0.408) ;
+}
+.arrow {
+    display: flex;
+    ;
+}
+.arrow .fa-angle-down
+{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.midflex {
+    display: flex;
+    background-color: rgba(255, 228, 196, 0.326);
+} 
+.midflex .home {
+    color: blueviolet;
+    margin-left: 180px;
+}
+.midflex .about {
+    margin-left: 30px;
+}
+.firstbox {
+    border: 1px solid rgba(128, 128, 128, 0.148);
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.firstbox h2 {
+    margin-left: 30px;
+}
+.men {
+    display: flex;
+    justify-content: space-between;
+}
+.men h3 {
+    color: blueviolet;
+    margin-left: 30px;
+}
+.men h4 {
+    margin-right: 30px;
+}
+.women {
+    display: flex;
+    justify-content: space-between;
+}
+.women h3 {
+    color: blueviolet;
+    margin-left: 30px;
+}
+.women h4 {
+    margin-right: 30px;
+}
+.children {
+    display: flex;
+    justify-content: space-between;
+}
+.children h3 {
+    color: blueviolet;
+    margin-left: 30px;
+}
+.children h4 {
+    margin-right: 30px;
+}
+.secondbox {
+    border: 1px solid rgba(128, 128, 128, 0.148);
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 40px;
+    height: 750px;
+}
+.secondbox h2 {
+    margin-left: 30px;
+}
+.secondbox .range {
+    margin-left: 30px;
+    width: 337px;
+}
+.secondbox .h44 {
+    margin-left: 30px;
+    color: gray;
+}
+.small {
+    display: flex;
+    margin-left: 30px;
+}
+.medium {
+    display: flex;
+    margin-left: 30px;
+}
+.large {
+    display: flex;
+    margin-left: 30px;
+}
+.red {
+    display: flex;
+    margin-left: 30px;
+}
+.red .fa-circle {
+    color: red;
+    margin-top: 22px;
+    margin-right: 5px;
+}
+.green {
+    display: flex;
+    margin-left: 30px;
+}
+.green .fa-circle{
+    color: rgb(0, 128, 98);
+    margin-top: 22px;
+    margin-right: 5px;
+
+}
+.blue {
+    display: flex;
+    margin-left: 30px;
+}
+.blue .fa-circle {
+    color: rgb(0, 145, 255);
+    margin-top: 22px;
+    margin-right: 5px;
+}
+.purple {
+    display: flex;
+    margin-left: 30px;
+}
+.purple .fa-circle {
+    color: purple;
+    margin-top: 22px;
+    margin-right: 5px;
+}
+section {
+    display: flex;
+}
+.right {
+    display: flex;
+    justify-content: space-around;
+}
+.right h2 {
+    color: black;
+    margin-top: 95px;
+    margin-left: 40px;
+}
+.right .latest {
+    margin-left: 500px;
+    height: 40px;
+    width: 100px;
+    padding-left: 20px;
+    background-color: rgba(128, 128, 128, 0.155);
+    margin-top: 95px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.right .latest:hover {
+    box-shadow: 0px 5px rgba(128, 128, 128, 0.403);
+    transform: translate(1px);
+    background-color: rgba(0, 0, 0, 0.585);
+
+}
+
+.right .reference {
+    margin-left: 10px;
+    height: 40px;
+    width: 130px;
+    padding-left: 20px;
+    background-color: rgba(128, 128, 128, 0.155);
+    margin-top: 95px;
+    border: none;
+    cursor: pointer;
+}
+.right .reference:hover {
+    box-shadow: 0px 5px rgba(128, 128, 128, 0.403);
+    transform: translate(1px);
+    background-color: rgba(0, 0, 0, 0.585);
+
+}
+.firstpic {
+    position: relative;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.cloth1 {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+}
+.firstpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+
+}
+.firstpic h3 {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 260px;
+    left:55px;
+    
+
+}
+.firstpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 300px;
+    left: 130px;
+
+}
+.secondpic {
+    position: relative;
+    margin-left: 25px;
+}
+.shoe1 {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 300px;
+
+}
+.secondpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+
+}
+.secondpic h3 {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 260px;
+    left:350px;
+    
+
+}
+.secondpic h4 {color: blueviolet;
+    position: absolute;
+    top: 300px;
+    left: 430px;
+}
+.thirdpic {
+    position: relative;
+    margin-left: 25px;
+}
+.cloth2 {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 600px;
+}
+.thirdpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 220px;
+    left: 700px;
+
+}
+.thirdpic h3 {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 260px;
+    left:680px;
+    
+
+}
+.thirdpic h4 {color: blueviolet;
+    position: absolute;
+    top: 300px;
+    left: 730px;}
+.fourthpic {
+    position: relative;
+    margin-left: 25px;
+
+
+}
+.cloth3 {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-top: 420px;
+}
+.fourthpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 640px;
+    left: 60px;
+
+}
+.fourthpic h3{
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 680px;
+    left:50px;
+
+}
+.fourthpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 720px;
+    left: 130px;
+
+
+}
+.fifthpic {
+    position: relative;
+    margin-left: 25px;
+}
+.shoee1 {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 420px;
+}
+.fifthpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 640px;
+    left: 400px;
+}  
+.fifthpic h3  {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 680px;
+    left: 350px;
+}
+.fifthpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 720px;
+    left: 430px;
+}
+.sixthpic {
+    position: relative;
+    margin-left: 25px;
+}
+.six {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 420px;
+
+
+}
+.sixthpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 640px;
+    left: 700px;
+
+
+} 
+.sixthpic h3 {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 680px;
+    left: 680px;
+} 
+.sixthpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 720px;
+    left: 730px;
+
+}
+.seventhpic {
+    position: relative;
+    margin-left: 25px;
+}
+.seven {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-top: 840px;
+}
+.seventhpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 1050px;
+    left: 100px;
+
+}
+.seventhpic h3{
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 1100px;
+    left:50px;
+
+}
+.seventhpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 1150px;
+    left: 130px;
+}
+.eightpic {
+    position: relative;
+    margin-left: 25px;
+}
+.eight {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 840px;
+}
+.eightpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 1050px;
+    left: 400px;
+}  
+.eightpic h3  {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 1100px;
+    left: 350px;
+}
+.eightpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 1150px;
+    left: 430px;
+}
+.ninepic {
+    position: relative;
+    margin-left: 25px;
+}
+.nine {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 840px;
+}
+.ninepic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 1050px;
+    left: 700px;
+} 
+.ninepic h3 {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 1100px;
+    left: 680px;
+} 
+.ninepic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 1150px;
+    left: 730px;
+}
+.tenpic {
+    position: relative;
+    margin-left: 25px;
+}
+.ten {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-top: 1260px;
+}
+.tenpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 1460px;
+    left: 100px;
+
+}
+.tenpic h3{
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 1510px;
+    left:50px;
+
+}
+.tenpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 1560px;
+    left: 130px;
+}
+.elevenpic {
+    position: relative;
+    margin-left: 25px;
+}
+.eleven {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 1260px;
+}
+.elevenpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 1460px;
+    left: 400px;
+}  
+.elevenpic h3  {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 1510px;
+    left: 350px;
+}
+.elevenpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 1560px;
+    left: 430px;
+}
+.lastpic {
+    position: relative;
+    margin-left: 25px;
+}
+.last {
+    width: 280px;
+    border: 1px solid rgba(128, 128, 128, 0.359);
+    padding-bottom: 200px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 1260px;
+
+
+}
+.lastpic h2 {
+    color: blueviolet;
+    position: absolute;
+    top: 1460px;
+    left: 700px;
+
+
+} 
+.lastpic h3 {
+    color: rgba(128, 128, 128, 0.493);
+    position: absolute;
+    top: 1510px;
+    left: 680px;
+} 
+.lastpic h4 {
+    color: blueviolet;
+    position: absolute;
+    top: 1560px;
+    left: 730px;
+}
+.categories {
+    margin-top: 1100px;
+    
+}
+.categories h1 {
+    justify-content: center;
+    display: flex;
+}
+.sec3 {display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    
+}
+.firstrel {
+    position: relative;
+}
+.womenn {
+    position: absolute;
+    cursor: pointer
+}
+.absolutee {
+    position: absolute;
+    top: 430px;
+    left:20px;
+    color: white;
+}
+.secrel {
+    position: relative;
+}
+.childrenn {
+    position: absolute;
+    cursor: pointer;
+}
+.absoluteee {position: absolute;
+    color: white;
+    top: 430px;
+    left:20px;
+}
+.menrel {
+    position: relative;
+}
+.menrel img {
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.foot-left {
+    margin-left: 100px;
+    
+}
+.ulflex {
+    display: flex;
+    color: gray;
+}
+.ulflex .col1 {
+    margin-right: 200px;
+}
+.ulflex .col2
+{
+    margin-right: 100px;
+}
+.promo h3 
+{
+    color: blueviolet;
+}
+.promo h4 {
+    color: gray;
+} 
+.contact {
+    margin-right:20px;
+}
+.manial {
+    display: flex;
+}
+.manial .fa-location-dot {
+    margin-top: 20px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.telephone {
+    display: flex;
+}
+.telephone .fa-phone {
+    margin-top: 21px;
+    margin-right: 10px;
+    color: blueviolet;
+}
+.emaill {
+    display: flex;
+}
+.emaill .fa-envelope {
+    margin-top: 22px;
+    margin-right: 10px;
+    color: blueviolet;
+}.sendd {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    width: 70px;
+    position: absolute;
+}
+.emaillast {
+    height: 30px;
+    width: 150px;
+    border: 1px solid rgba(128, 128, 128, 0.319);
+    position: relative;
+    outline: none;
+}
+.lastttttttt {
+    
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.lastttttttt .name {
+    color: blueviolet;
+}
+.lastttttttt .copyright {
+    color: gray;
+}
+hr {
+    height: 1px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.162);
+}
+
+
+
+
+
+
+
+
+
+
+
+    
